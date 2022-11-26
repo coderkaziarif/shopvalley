@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shopvalley/static/css/main.cb8b2ce1.css",
+    "main.js": "/shopvalley/static/js/main.a898dbe2.js",
+    "static/media/slider6.jpg": "/shopvalley/static/media/slider6.b01c651426a7f23c3361.jpg",
+    "static/media/slider5.jpg": "/shopvalley/static/media/slider5.580bafd6fb05503b84ac.jpg",
+    "static/media/slider4.jpg": "/shopvalley/static/media/slider4.15688fa869e9732eb879.jpg",
+    "static/media/slider3.jpg": "/shopvalley/static/media/slider3.b1a8c6c44371a92b4f69.jpg",
+    "static/media/slider2.jpg": "/shopvalley/static/media/slider2.e2e4bafca2930fa47db7.jpg",
+    "static/media/slider1.jpg": "/shopvalley/static/media/slider1.0341a52d71038abf8f14.jpg",
+    "static/media/pic1 .png": "/shopvalley/static/media/pic1 .b93b459ec72cf0c293d4.png",
+    "index.html": "/shopvalley/index.html",
+    "main.cb8b2ce1.css.map": "/shopvalley/static/css/main.cb8b2ce1.css.map",
+    "main.a898dbe2.js.map": "/shopvalley/static/js/main.a898dbe2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb8b2ce1.css",
+    "static/js/main.a898dbe2.js"
+  ]
+}
