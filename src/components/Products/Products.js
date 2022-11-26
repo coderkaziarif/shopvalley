@@ -16,12 +16,12 @@ const Products = () => {
 
    return (  
       <Box backgroundColor="lightgrey" flex={6} p={2}>
-         <Grid container spacing="5">
+         <Grid container spacing="20">
                                      
                {                  
-                  offers.map((offer, index) => <Grid item xs={6} sm={4} key={index}>  <Card sx={{ maxWidth: 345 }}>                  
+                  offers.map((offer, index) => <Grid item xs={12} sm={4} key={index}>  <Card sx={{ maxWidth: "50vw" }}>                  
                         <CardActionArea>
-                           <CardMedia sx={{objectFit:'fill',  height:'150px', }}
+                           <CardMedia sx={{objectFit:'fill',  height:'35vh', width:'100%' }}
                               component="img"                          
                               image={offer.img}
                               alt="Parrot"
@@ -34,13 +34,16 @@ const Products = () => {
               
                }               
       
-           
+               <Grid container marginTop={10} marginLeft={1} spacing="20">
             {
-               products.map((product)=> <Grid key={product.id} item xs={6} sm={4} md={3} >
-               <Product product={product}/>
+               
+                  products.map((product)=> <Grid key={product.id} item xs={12} sm={6} md={4} lg={3}>
+                  <Product product={product}/>
+              
               </Grid>)
+             
             }
-
+            </Grid>
          </Grid>
       </Box>
    );

@@ -1,7 +1,7 @@
 import React from 'react';
 import {useNavigate} from 'react-router-dom';
 import AttachMoneyIcon from '@mui/icons-material/AttachMoney';
-import { Button, Card, CardActionArea, CardContent, CardMedia, Container, IconButton, Typography } from '@mui/material';
+import { Button, Card, CardActionArea, CardContent, CardMedia, IconButton, Typography } from '@mui/material';
 
 
 const Product = ({product}) => {
@@ -17,14 +17,14 @@ const Product = ({product}) => {
       <>
 
         
-        <Card sx={{ maxWidth: 240 , marginTop:'1rem', borderRadius:'10px'}}
+        <Card sx={{ maxWidth: "50vW", marginTop:'1rem', borderRadius:'10px',}}
        >
                   <CardActionArea>
                   
                         <CardMedia
-                        sx={{objectFit:'fill', borderBottomRadius:'10px', height:'150px'}}
+                        sx={{objectFit:'fill', borderBottomRadius:'10px', height:'25vh'}}
                         component="img"
-                        height="15%"
+                      
                         image={product.img}
                         alt="Parrot"                   
                         />
