@@ -1,17 +1,18 @@
 import React from 'react';
 import { Avatar, Button, Checkbox, FormControlLabel, Grid, Paper, TextField, Typography } from '@mui/material';
-import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
-
+// import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
 
 
 const Signup = () => {
-   const paperStyle ={padding: "30px 20px",margin:"20px auto", width:350} 
+   const paperStyle ={padding: "20px 20px",margin:"0 auto", width:350, height:'74vh'};
+
    return (
       <>
       <Grid>
-         <Paper elevation={10} style={paperStyle}>
+         <Paper style={paperStyle}>
             <Grid align="center">
-               <Avatar sx={{backgroundColor:"purple"}}><AddCircleOutlineIcon/></Avatar>
+               <Avatar sx={{backgroundColor:"purple"}}><PersonAddIcon/></Avatar>
                <Typography variant='h5' color='secondary'>Signup </Typography> 
                <Typography variant='caption'>
                   Please fill this form to create an account !</Typography> 
@@ -28,7 +29,7 @@ const Signup = () => {
 
                <TextField variant ="standard" type="password" name="cPassword"  label='Confirm password' placeholder="Confirm password" fullWidth required color='secondary'></TextField>
 
-               <FormControlLabel sx={{marginTop:"5px"}} control={<Checkbox name="checkedA" color="secondary" size="small"/>}
+               <FormControlLabel sx={{marginTop:"8px"}} control={<Checkbox name="checkedA" color="secondary" size="small"/>}
                label="I accept the terms and condition."/>
 
                <Button type='submit' variant='contained' color='secondary' fullWidth style={{margin:"8px 0"}}>Sign up</Button>

@@ -9,7 +9,7 @@ const Product = ({product}) => {
    //* for navigating purposes
    const navigate = useNavigate();
    const handleCheckout = (id)=>{
-      const url =`/checkout/${id}`;
+      const url =`/productInfo/${id}`;
       navigate(url);
    }
 
